@@ -1,33 +1,3 @@
-Développer un programme qui parcourt une suite de nombres aléatoires et applique des règles d’affichage
-spécifiques.
-Pour chaque nombre :
-• si le nombre est multiple de 3, afficher « Patte »
-• si le nombre est multiple de 5, afficher « Tatras »
-• si le nombre est multiple de 3 et 5, afficher « Pattatras »
-• sinon afficher le nombre lui-même
-Le programme doit parcourir des nombres de 1 à 6457.
-
-Met le dans une page web stylisée en php et vue.js
-Création d'une page FizzBuzz animée avec PHP et Vue.js.
-Création d'une page FizzBuzz animée avec PHP et Vue.js.
-
-Je crée une page index.php : PHP calcule la suite de 1 à 6457, Vue.js gère l’affichage (filtres, recherche, pagination).
-Créé un fichier, partagé un fichier, exécuté une commande
-
-Voici index.php : PHP calcule la suite de 1 à 6457 et Vue.js l’affiche dans une page sombre et colorée. La syntaxe est valide et le rendu PHP fonctionne. Je n’ai pas ouvert la page dans un navigateur.
-
-Pour la lancer, place le fichier dans un dossier et exécute php -S localhost:8000, puis ouvre http://localhost:8000. La page charge Vue depuis internet (CDN).
-
-    Règles : multiple de 15 → « Pattatras » (testé en premier), multiple de 3 → « Patte », multiple de 5 → « Tatras », sinon le nombre lui-même.
-    Compteurs : 1 722 « Patte », 861 « Tatras », 430 « Pattatras » et 3 444 nombres inchangés, ce qui fait bien 6457 au total.
-    Page : une grille colorée avec une recherche, des filtres par catégorie et une pagination (100, 250 ou 500 par page).
-
-Index
-Code·PHP 
-
-
-Claude est une IA et peut commettre des erreurs.
-Index · PHP
 <?php
 declare(strict_types=1);
  
